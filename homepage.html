@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>OBRT Radmanić</title>
+        <link rel="stylesheet" href="homepage.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a class="nav-title">
+                        <h1>OBRT Radmanić</h1>
+                </a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fas fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="homepage.html">NASLOVNICA</a></li>
+                        <li><a href="pages/usluge.html">USLUGE</a></li>
+                        <li><a href="pages/gallery.html">GALERIJA</a></li>
+                        <li><a href="pages/contact.html">KONTAKT</a></li>
+                        
+                    </ul>
+                </div>
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+            </nav>
+        <div class="text-box">
+            <h1>S nama Vaš najljepši dan postaje stvarnost!</h1>
+            <br>
+            <br>
+            <a href="pages/contact.html" class="button1">KONTAKTIRAJ NAS</a>
+            <a href="pages/gallery.html" class="button2">GALERIJA</a>
+        </div>
+            
+        </section>
+
+        <section class="services">
+            <br>
+            <h1>Naše usluge</h1>
+            
+            
+            <div class="row">
+                <div class="service">
+                    <h3>Najam šatora</h3>
+                    <p>
+                        Kvalitetni bijeli vodootporni šatori različitih veličina
+                    </p>
+                </div>
+                <div class="service">
+                    <h3>Najam suncobrana</h3>
+                    <p>
+                        Zaštita od sunca sa suncobranima veličine 3x3m
+                    </p>
+                </div>
+                <div class="service">
+                    <h3>Najam stolova i klupa</h3>
+                    <p>
+                        Setovi pivskih garnitura veličine 200x80cm, te barski stolovi
+                    </p>
+                </div>
+                <div class="service">
+                    <h3>Aranžiranje švedskog stola</h3>
+                    <p>
+                        Dekoriranje i aranžiranje švedskog stola 
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="about-sec">
+                    <img src="images/rezbarenje.jpeg">
+                    <div class="layer">
+                        <h4>REZBARENJE VOĆA</h4>
+                    </div>
+                </div>
+                <div class="about-sec">
+                    <img src="images/aranz.jpg">
+                    <div class="layer">
+                        <h4>ARANZIRANJE STOLA</h4>
+                    </div>
+                </div>
+                <div class="about-sec">
+                    <img src="images/topla.jpeg">
+                    <div class="layer">
+                        <h4>TOPLA I HLADNA JELA</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="container">
+                <div class="photo">
+                    <img src="images/onama.jpg">
+                </div>
+                <div class="about-txt">
+                    <h1>O nama</h1>
+                    <br>
+                    <br>
+                    <p>
+                        Ovim poslom bavimo se zadnjih 5 godina, te uživamo u onome što radimo.<br> 
+                        Kod nas u ponudi možete pronaći sve za Vaš savršeni dan bilo ono vjenčanje,
+                        krizma, prva pričest,<br> krštenje,momačka ili djevojačka večer, rođendan 
+                        ili bilo koji drugi posebni događaj. <br>Osim najma šatora i cjelokupne opreme nudimo i aranžiranje, 
+                        dekoriranje i cijelo uređenje Vašeg švedskog stola. <br>Posjedujemo također tehnike rezbarenja voća.  
+                    </p>
+                </div>              
+            </div>
+            <br>
+            <footer class="foot">
+                <p class="cp-text">
+                    © Copyright 2022. All rights reserved.
+                </p>
+             </footer>
+
+        </section>
+
+<!---------- JAVASCRIPT--->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>    
+    </body>
+</html>

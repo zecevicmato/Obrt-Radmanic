@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>OBRT Radmanić</title>
+        <link rel="stylesheet" href="../styles/contact.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a class="nav-title">
+                        <h1>OBRT Radmanić</h1>
+                </a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fas fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="../homepage.html">NASLOVNICA</a></li>
+                        <li><a href="../pages/usluge.html">USLUGE</a></li>
+                        <li><a href="../pages/gallery.html">GALERIJA</a></li>
+                        <li><a href="../pages/contact.html">KONTAKT</a></li>
+                        
+                    </ul>
+                </div>
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <section class="contact">
+                <h1>KONTAKT </h1>
+                <div class="container">
+                    <div class="box1">
+                        <br>
+                        <br> 
+                        <p>Upite o dostupnim terminima i rezervacijama možete 
+                            uputiti na broj telefona +38599-653-7777
+                        </p>
+                        <br><br>
+                        <p>Ili nas kontaktirajte putem naše Facebook stranice klikom na logo.</p>
+                        <br><br>
+                    </div>
+
+                    <div class="box2">
+                        <a href="https://www.facebook.com/Obrt-Radmani%C4%87-Najam-%C5%A1atora-aran%C5%BEiranje-i-dekoriranje-%C5%A1vedskog-stola-1553143944986589" class="fa fa-facebook"></a>
+                    </div>
+
+                    
+                </div>
+             </section>
+             <footer class="foot">
+                <p class="cp-text">
+                    © Copyright 2022. All rights reserved.
+                </p>
+             </footer>
+            
+        </section>
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!---------- JAVASCRIPT--->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>    
+    </body>
+</html>
